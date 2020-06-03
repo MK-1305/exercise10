@@ -69,11 +69,25 @@ main {
 	}
 
 	.step-box {
-		width:100%;
-		margin:10px 30px;
+		width:90%;
+		margin:20px auto;
+		float: none;
+	}
+
+	.step-box:last-child{
+		margin: 0 auto;
+		margin-bottom: 0px
 	}
 
 	.step-img1 {
+		width:100%;
+	}
+
+	.step-img2 {
+		width:100%;
+	}
+
+	.step-img3 {
 		width:100%;
 	}
 
@@ -82,7 +96,7 @@ main {
 	}
 
 	.text {
-		width:100%%;
+		width:100%;
 	}
 }
 
